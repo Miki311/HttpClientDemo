@@ -7,21 +7,24 @@ using System.Web;
 using System.Web.Mvc;
 using HttpClient_1.Models;
 using System.Threading.Tasks;
+using static HttpClient_1.AuthorisationTypes;
 
 namespace HttpClient_1.Controllers
 {
     public class PostController : Controller
     {
-        private IHttpClientService _httpClientService;
+        private IAuthenticationService _authService;
 
-        public PostController(IHttpClientService httpClientService)
+        public PostController(IAuthenticationService httpClientService)
         {
-            _httpClientService = httpClientService;
+            _authService = httpClientService;
         }
         // GET: Post
         public async Task<ActionResult> Index()
         {
-            List<Post> items = await _httpClientService.GetListItems<Post>("posts");
+            var _clientType = HttpClientTypes.Unauthorized.GetDescription();
+            Uri baseAddress = new Uri("https://jsonplaceholder.typicode.com/posts");
+            List<Post> items = await _authService.GetList<Post>(_clientType, baseAddress.ToString());
             return View(items);
         }
 

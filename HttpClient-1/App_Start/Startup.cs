@@ -41,7 +41,7 @@ namespace HttpClient_1.App_Start
             });
 
             Uri baseAddress = new Uri("https://jsonplaceholder.typicode.com/");
-            services.AddSingleton<IHttpClientService>(provider => new HttpClientService(provider.GetService<HttpContextBase>(), baseAddress));
+            services.AddSingleton<IAuthenticationService>(provider => new AuthenticationService(provider.GetService<HttpContextBase>()));
         }
     }
 }

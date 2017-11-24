@@ -145,7 +145,6 @@ C:\Users\Miodrag-Simunovic-pc\Documents\Visual Studio 2017\Projects\HttpClient-1
 C:\Users\Miodrag-Simunovic-pc\Documents\Visual Studio 2017\Projects\HttpClient-1\HttpClient-1\bin\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Miodrag-Simunovic-pc\Documents\Visual Studio 2017\Projects\HttpClient-1\HttpClient-1\bin\Microsoft.Extensions.DependencyInjection.xml
 C:\Users\Miodrag-Simunovic-pc\Documents\Visual Studio 2017\Projects\HttpClient-1\HttpClient-1\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
-C:\Users\Miodrag-Simunovic-pc\Documents\Visual Studio 2017\Projects\HttpClient-1\HttpClient-1\obj\Debug\HttpClient-1.csprojResolveAssemblyReference.cache
 C:\Users\Miodrag-Simunovic-pc\Documents\Visual Studio 2017\Projects\HttpClient-1\HttpClient-1\bin\AutoMapper.dll
 C:\Users\Miodrag-Simunovic-pc\Documents\Visual Studio 2017\Projects\HttpClient-1\HttpClient-1\bin\Microsoft.Owin.dll
 C:\Users\Miodrag-Simunovic-pc\Documents\Visual Studio 2017\Projects\HttpClient-1\HttpClient-1\bin\Microsoft.Owin.Host.SystemWeb.dll
